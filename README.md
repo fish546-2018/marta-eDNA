@@ -1,5 +1,5 @@
 # marta-eDNA data analysis
-# eDNA analysis - Deciphering community structure from Intertidal Puget Sound water samples 
+# Deciphering community structure from Intertidal Puget Sound water samples 
 
 My project involves analyzing data published by Ryan Kelly and his team at SMEA. I will start with the raw data, and from two of the files (forward and reverse sequences), I will determine what taxa is present following their established protocols and pipeline.
 
