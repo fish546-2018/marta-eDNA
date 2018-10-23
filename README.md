@@ -34,7 +34,7 @@ My project involves analyzing data published by Ryan Kelly and his team at SMEA.
 Raw data and other data files being generated as the analysis progresses 
 ### Analysis
 All files that contain code for analysis of data
-### README
+### Notebook
 Markdown files documenting steps of analyses and progress
 
 
