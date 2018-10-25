@@ -1,1 +1,21 @@
-Preogress
+Progress
+Project progress as of 10-25-18
+
+I have the raw data loaded to my computer
+
+/c/Users/mcgom/Documents/GitHub/Tides_eDNA/data/Good-lib2_S2_L001_R1_001.fastq.gz
+
+
+I have tried to upload the [PEAR program](https://sco.h-its.org/exelixis/web/software/pear/ "PEAR") to my computer which would be the first step on my workflow. Ramon suggested [another way](https://www.h-its.org/downloads/pear-academic/) to load it, 
+
+/c/Users/mcgom/Documents/Bioinformatics/pear-0.9.11-linux-x86_64.tar.gz
+
+but this has not worked either.
+
+I spent several hours yesterday working on this issue and also getting my repository organized, created more folders and tried to get the repository cloned to my computer so they both "communicate", but I'll have to get some help with this.
+
+I will try to check with Ramon before the weekend to see if it's work on my computer.
+
+I'm working during class to see if I can get to what pear does with usearch instead. Kelly just toldm e that through the command line userach seems to have some commands that should be work.
+
+ 
