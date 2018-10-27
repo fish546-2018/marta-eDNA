@@ -38,7 +38,7 @@ All files that contain code for analysis of data
 Markdown files documenting steps of analyses and progress
 ### Tutorial
 Helpful turorials for GitHub usage
-### 
-
+### Progress
+Journal entries with details of progress each day
 
 #### NOTE: other folders will be added if additional information does not fit the originally established project organization.
