@@ -36,6 +36,9 @@ Raw data and other data files being generated as the analysis progresses
 All files that contain code for analysis of data
 ### Notebook
 Markdown files documenting steps of analyses and progress
+### Tutorial
+Helpful turorials for GitHub usage
+### 
 
 
 #### NOTE: other folders will be added if additional information does not fit the originally established project organization.
