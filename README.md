@@ -10,9 +10,9 @@ My project involves analyzing data published by Ryan Kelly and his team at SMEA.
 
 ## Objectives
 
-1. Merge paired-end reads with PEAR
-2. Quality filter with usearch
-3. Remove primers with cutadapt
+1. Merge paired-end reads with R
+2. Quality filter with R
+3. Remove primers with R
 4. Reverse complement appropriate sequences with seqtk
 5. Remove sequences containing homopolymers (BSD Unix: grep; awk)
 6. Consolidate identical sequences with usearch
@@ -24,8 +24,13 @@ My project involves analyzing data published by Ryan Kelly and his team at SMEA.
 
 ## Timeline
 
-* Week 4: Install and get familiar with PEAR, usearch, and cutadapt. 
+* Week 4: Install and get familiar with all necessary bioinformatic tools for my project 
 * Week 5: Steps 1 & 2 in objectives
+* Week 6: Steps 3-6
+* Week 7: Steps 7 & 8
+* Week 8: Steps 9 & 10
+* Week 9: Check results and write final report on markdow document
+* Week 10: Project presentation
 
 
 ## Repository Organization
