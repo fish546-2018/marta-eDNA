@@ -27,5 +27,41 @@ I  met with Ramon on Monday 10-29, and he recomended a couple of packages that c
 insect and dada2. I decided to go with insect. So I loaded it to R studio. Following a tuturial with examples on the script and steps to follow I 
 got the data to be read and got the primer values into R, But I was getting error messges for the next step, which would merge both library sequences.
 
-After meeting again with Ramon on Friday 11-2, he suggested I try the PC at my lab. I was able to get it to run the merging step successfuly 
+After meeting again with Ramon on Friday 11-2, he suggested I try the PC at my lab. I was able to get it to run the merging step successfully 
 on Sunday 11-4!!!
+
+Here is the script for all the steps that run successfully
+
+_________________________________________________________________________________________________________________
+install.packages("insect")
+library (insect)
+
+getwd()  # which is the working directory
+list.files()   # what files/folders
+
+# Load R1 and R2 files
+
+Read.1 <- readFASTQ("Data/Good-lib2_S2_L001_R1_001.fastq")
+Read.2 <- readFASTQ("Data/Good-lib2_S2_L001_R2_001.fastq")
+
+# Load PCR primers
+
+mlCOIintF <- "GGWACWGGWTGAACWGTWTAYCCYCC"
+jgHCO2198 <- "TAIACYTCIGGRTGICCRAARAAYCA"
+
+# Merge both pairends
+
+Read.merged <- stitch(Read.1, Read.2, up = mlCOIintF, down = jgHCO2198, minoverlap = 50)
+
+# write the merged file to disk 
+
+writeFASTQ(Read.merged, file = "Good-lib2_s2_merged.fastq")
+
+# Remove low quality seqs
+
+Read.cleaned <- qfilter (Read.merged, minqual = 30, maxambigs = 0, mincount = 2, minlength = 350, maxlength = 500)
+
+# write the clean file to nb
+
+writeFASTQ(Read.cleaned, file = "Good-lib2_s2_cleaned.fastq")
+__________________________________________________________________________________________________________________
