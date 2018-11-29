@@ -1,0 +1,12 @@
+I'm trying to do what Kelly did for her eDNA project here with Galaxy.
+ !cutadapt \
+ -g file:/Users/kellycribari/Documents/Bioinformatics/GitHub/Cribari-eDNA/FASTA/metadatatags.fasta \
+ -o /Users/kellycribari/Documents/Bioinformatics/GitHub/Cribari-eDNA/Demultiplexed/sample{name}.fasta \
+ /Users/kellycribari/Documents/Bioinformatics/GitHub/Cribari-eDNA/FASTA/Lib-1.assembled.fasta \
+ 
+ What I would like to do is use the metadata file she has in her code "metadatatags.fasta" with all the tags that need to be removed, 
+ and use it somehow in Galaxy. I did run a trial run in Galaxy, but I did one of the tags. I'm not sure if I could removed all of the 
+ tags in one run and get just one file with all the tags removed, like Kelly did in Jupyter.
+ 
+ The link for both my files in eagle is :
+ eagle.fish.washington.edu log in and then go to File station marta folder and eDNA
